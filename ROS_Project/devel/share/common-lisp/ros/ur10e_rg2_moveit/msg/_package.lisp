@@ -1,0 +1,11 @@
+(cl:defpackage ur10e_rg2_moveit-msg
+  (:use )
+  (:export
+   "<UNIVERSALROBOTSJOINTSMSG>"
+   "UNIVERSALROBOTSJOINTSMSG"
+   "<UR10EMOVEITJOINTS>"
+   "UR10EMOVEITJOINTS"
+   "<UR10ETRAJECTORY>"
+   "UR10ETRAJECTORY"
+  ))
+

@@ -1,0 +1,8 @@
+prefix=/home/huy/ROS_Project/install
+
+Name: ur10e_rg2_urdf
+Description: Description of ur10e_rg2_urdf
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

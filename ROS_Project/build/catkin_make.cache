@@ -1,0 +1,2 @@
+moveit_msgs:ros_tcp_endpoint:ur10e_rg2_moveit:ur10e_rg2_ros/niryo_one_msgs:ur10e_rg2_urdf
+-DCATKIN_DEVEL_PREFIX=/home/huy/ROS_Project/devel -DCMAKE_INSTALL_PREFIX=/home/huy/ROS_Project/install -G Unix Makefiles
