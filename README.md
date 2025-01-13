@@ -213,7 +213,6 @@ To enable communication between Unity and ROS, a TCP endpoint running as a ROS n
    ![](img/2_text.png)
 
 ## Ros Side
-# The ROS side
 1. Open a terminal window in the ROS workspace. Once again, source the workspace. Then, run the following `roslaunch` in order to set the ROS parameters, start the server endpoint, and start the trajectory subscriber.
 
    ```bash
@@ -239,3 +238,14 @@ To enable communication between Unity and ROS, a TCP endpoint running as a ROS n
 ROS and Unity have now successfully connected!
 
    ![](img/2_echo.gif)
+
+## Execution
+The following are the comprehensive execution steps to successfully run the system:
+
+1. Launch ROS: Begin by launching the Robot Operating System (ROS) using the specified command provided above. This step initializes the ROS environment and activates the necessary nodes and packages required for communication and control of the UR10e robot arm and the RG2 gripper. Ensure that all dependencies are properly sourced, and no errors appear in the terminal during this process.
+
+2. Open Unity and Start Simulation: Once ROS is running smoothly, open the Unity application where the robotic simulation is set up. In Unity, navigate to the simulation scene and press the Play button. This action starts the simulation, enabling real-time visualization and interaction with the robot model, allowing the system to process and display the robot's movements and responses.
+
+3. Publish Arm Position and Receive Trajectory Data: Within the Unity interface, locate the button positioned at the bottom-left corner of the screen. Press this button to trigger the publishing of the robot arm's current position. This command sends the arm's state information to ROS, which processes it and returns the calculated motion trajectory. This trajectory data is then received in Unity, allowing the robot arm in the simulation to move according to the planned path.
+
+By carefully following these steps, the integration between ROS and Unity will enable seamless control and visualization of the UR10e robot arm and RG6 gripper during execution.
