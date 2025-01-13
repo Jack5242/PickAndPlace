@@ -217,7 +217,7 @@ To enable communication between Unity and ROS, a TCP endpoint running as a ROS n
 1. Open a terminal window in the ROS workspace. Once again, source the workspace. Then, run the following `roslaunch` in order to set the ROS parameters, start the server endpoint, and start the trajectory subscriber.
 
    ```bash
-   roslaunch ur10e_rg2_moveit test_TrajectoryPlanner.launch
+   roslaunch ur10e_rg2_moveit TrajectoryPlanner.launch
    ```
 
    > Note: Running `roslaunch` automatically starts [ROS Core](http://wiki.ros.org/roscore) if it is not already running.
